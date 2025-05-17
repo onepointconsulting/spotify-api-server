@@ -14,9 +14,11 @@ uv pip install .
 
 # Configuration
 
+```
 PORT = 9000
 CLIENT_ID = "<id>" # Get this from Spotify by Spotify application
 REDIRECT_URI = f"http://127.0.0.1:{PORT}/callback"
+```
 
 ## Usage
 
